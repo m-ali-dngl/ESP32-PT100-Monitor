@@ -1,10 +1,10 @@
-# 📟 ESP32 Industrial Dual-Channel PT100 & Power Monitor
+#  ESP32 Industrial Dual-Channel PT100 & Power Monitor
 
-## 📖 Overview
+##  Overview
 
 This project is designed for field engineers and technicians who need to monitor temperature and power parameters simultaneously. It utilizes the **ESP32** microcontroller to process data from two **PT100 RTD sensors** (via MAX31865) and an **INA219** current sensor. The data is displayed on a crisp **2.8" ILI9341 TFT screen** with a custom graphical user interface.
 
-## ✨ Key Features
+##  Key Features
 
 * **Dual Temperature Monitoring:** High-precision reading from 2x PT100 sensors using MAX31865 (SPI).
 * **Power Analysis:** Real-time current monitoring (mA) for external loads via INA219 (I2C).
@@ -17,7 +17,7 @@ This project is designed for field engineers and technicians who need to monitor
     * Color-coded alerts (Green/Yellow/Red) for battery levels and sensor status.
 * **PCB Design:** Schematic and PCB layout created in **Altium Designer**.
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 ├── Software/          # Arduino source codes (.ino) and header files
