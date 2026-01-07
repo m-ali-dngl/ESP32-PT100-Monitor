@@ -2,54 +2,25 @@
 FileName = PCB1.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Designator
-      File : PCB1.GM7
+Generating : Top Layer
+      File : PCB1.GTL
 
-    Adding Layer      : Bottom Designator
+    Adding Layer      : Top Layer
 
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top Designator
-      File : PCB1.GM6
-
-    Adding Layer      : Top Designator
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D10
-    D14
-    D26
+    D19
+    D20
+    D21
+    D22
+    D23
 *************************************************************
 
 *************************************************************
-Generating : Bottom Component Center
-      File : PCB1.GM5
-
-    Adding Layer      : Bottom Component Center
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top Component Center
-      File : PCB1.GM4
-
-    Adding Layer      : Top Component Center
-
-
-Used DCodes :
-    D11
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : PCB1.GBP
-
-    Adding Layer      : Bottom Paste
+Generating : Bottom Layer
+      File : PCB1.GBL
 
     Adding Layer      : Bottom Layer
 
@@ -57,17 +28,37 @@ Generating : Bottom Paste
 
 
 Used DCodes :
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
 *************************************************************
 
 *************************************************************
-Generating : Top Paste
-      File : PCB1.GTP
+Generating : Top Overlay
+      File : PCB1.GTO
 
-    Adding Layer      : Top Paste
+    Adding Layer      : Top Overlay
 
-    Adding Layer      : Top Layer
 
-    Adding Layer      : Multi-Layer
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : PCB1.GBO
+
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
@@ -92,6 +83,43 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Top Designator
+      File : PCB1.GM6
+
+    Adding Layer      : Top Designator
+
+
+Used DCodes :
+    D10
+    D14
+    D28
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : PCB1.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Center
+      File : PCB1.GM5
+
+    Adding Layer      : Bottom Component Center
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
 Generating : Top Solder
       File : PCB1.GTS
 
@@ -110,33 +138,20 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : PCB1.GBO
+Generating : Bottom Designator
+      File : PCB1.GM7
 
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : PCB1.GTO
-
-    Adding Layer      : Top Overlay
+    Adding Layer      : Bottom Designator
 
 
 Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
 *************************************************************
 
 *************************************************************
-Generating : Bottom Layer
-      File : PCB1.GBL
+Generating : Bottom Paste
+      File : PCB1.GBP
+
+    Adding Layer      : Bottom Paste
 
     Adding Layer      : Bottom Layer
 
@@ -144,29 +159,17 @@ Generating : Bottom Layer
 
 
 Used DCodes :
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
 *************************************************************
 
 *************************************************************
-Generating : Top Layer
-      File : PCB1.GTL
+Generating : Top Component Center
+      File : PCB1.GM4
 
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Top Component Center
 
 
 Used DCodes :
-    D19
-    D20
-    D21
-    D22
+    D12
 *************************************************************
 
 *************************************************************
@@ -175,6 +178,6 @@ Generating : Profile
 
 
 Used DCodes :
-    D27
+    D29
 *************************************************************
 
